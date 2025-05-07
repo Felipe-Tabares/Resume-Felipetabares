@@ -3,6 +3,20 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
   
+
+  /* Ajuste para cargar fuentes de forma más eficiente */
+@font-face {
+    font-family: 'YourMainFont';
+    font-display: swap; /* Mejora la percepción de velocidad de carga */
+    src: url('fonts/yourfont.woff2') format('woff2');
+  }
+  
+  /* Minimizar cambios de layout */
+  img {
+    width: auto;
+    height: auto;
+    aspect-ratio: attr(width) / attr(height);
+  }
   /* Container styles */
   .cvContainer {
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
