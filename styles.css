@@ -1,0 +1,266 @@
+body {
+    background-color: #f5f5f5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Container styles */
+  .cvContainer {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    min-height: 500px;
+    background-color: #fff;
+  }
+  
+  .appContainer {
+    padding-top: 30px;
+    margin: auto;
+    max-width: 960px;
+  }
+  
+  /* Header styles */
+  header {
+    background: #2d7788;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: white;
+    padding: 2rem 0;
+  }
+  
+  header img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 3px solid white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  }
+  
+  /* Summary section */
+  .summary-section {
+    background-color: #3c8799;
+    color: white;
+    padding: 1rem;
+    border-radius: 4px;
+    margin-top: 1rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  }
+  
+  /* Section styling */
+  .sectionContainer {
+    margin: 1rem;
+  }
+  
+  .sectionIcon {
+    padding: 10px;
+    font-size: 20px;
+    margin-right: 0.75em;
+    border-radius: 100%;
+    background: #2d7788;
+    color: white;
+  }
+  
+  .sectionTitle {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .sectionContent {
+    padding: 1em;
+  }
+  
+  /* Progress bars */
+  .progress {
+    height: 8px;
+    background-color: #e9ecef;
+    margin-bottom: 0.5rem;
+    border-radius: 4px;
+  }
+  
+  .progress-bar {
+    background-color: #2d7788 !important;
+  }
+  
+  /* Badges styling */
+  .badge.bg-danger {
+    background-color: #ff5252 !important;
+    margin-right: 0.3rem;
+    margin-bottom: 0.3rem;
+    font-weight: normal;
+    padding: 0.4rem 0.6rem;
+    border-radius: 4px;
+  }
+  
+  .badge.bg-secondary {
+    background-color: #78909c !important;
+    margin-right: 0.3rem;
+    margin-bottom: 0.3rem;
+    border-radius: 4px;
+  }
+  
+  .badge.bg-warning {
+    margin-right: 0.3rem;
+    margin-bottom: 0.3rem;
+    color: #212529 !important;
+    background-color: #ffd54f !important;
+    border-radius: 4px;
+  }
+  
+  /* Section headings */
+  h4 {
+    color: #2d7788;
+    font-weight: 600;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    position: relative;
+    display: inline-block;
+  }
+  
+  h4::after {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #2d7788;
+  }
+  
+  /* Main container padding */
+  main.container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  
+  /* Animation effects */
+  .fade-in {
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Languages section */
+  .language-progress {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: relative;
+    background: #e0e0e0;
+    display: inline-block;
+    margin-right: 1rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .language-progress .inner {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: white;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #2d7788;
+  }
+  
+  .border-end {
+    border-color: #e0e0e0 !important;
+  }
+  
+  /* Skills specific styles */
+  .skill-section {
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #2d7788;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+  
+  /* Extra spacing and refinements */
+  .personal-details p {
+    margin-bottom: 0.6rem;
+  }
+  
+  ul {
+    padding-left: 1.2rem;
+  }
+  
+  ul li {
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Divider styles */
+  .divider {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid hsl(0, 0%, 71%);
+    max-width: 500px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  hr {
+    margin: 0;
+  }
+  
+  /* Company and project styles */
+  .companyTitle,
+  .projectTitle {
+    display: inline;
+  }
+  
+  .companyMeta,
+  .projectMeta {
+    padding: 1em;
+  }
+  
+  /* Branding */
+  .branding {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  /* Contact list */
+  .contactListContainer {
+    margin-top: 10px;
+  }
+  
+  .contactListItemContent {
+    color: hsl(0, 0%, 96%);
+    margin-left: 10px;
+  }
+  
+  /* Print styles */
+  @media print {
+    .sectionContainer {
+      padding: 0px;
+      margin: 0px;
+    }
+    
+    .commonListContainer {
+      padding: 0;
+      margin: 0;
+    }
+    
+    .avoidBreakingOnPrint {
+      page-break-inside: avoid;
+    }
+    
+    .branding {
+      display: none;
+    }}
