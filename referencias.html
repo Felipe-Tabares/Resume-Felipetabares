@@ -6,9 +6,111 @@
   <title>Referencias - Felipe Tabares</title>
   <meta name="description" content="Referencias y enlaces a proyectos de colegas de Felipe Tabares.">
   <link rel="icon" type="image/png" href="img/ico.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Special+Gothic+Expanded+One&family=Lato:wght@400;600;700&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link href="styles.css" rel="stylesheet">
+  <style>
+    .clickable-banner-ref {
+      font-family: 'Lato', sans-serif;
+      background: linear-gradient(135deg, #f5f5f7 0%, #ffffff 100%);
+      color: #1a1a1a;
+      padding: 30px;
+      border-radius: 12px;
+      max-width: 500px;
+      margin: 20px auto;
+      position: relative;
+      overflow: hidden;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+      border: 1px solid rgba(0,0,0,0.05);
+      display: block;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      cursor: pointer;
+    }
+    
+    .clickable-banner-ref:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+    }
+    
+    .banner-title-ref {
+      font-family: 'Special Gothic Expanded One', sans-serif;
+      font-size: 32px;
+      font-weight: 400;
+      margin-bottom: 15px;
+      line-height: 1.1;
+      letter-spacing: 1px;
+      color: #000;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+    }
+    
+    .banner-subtitle-ref {
+      font-size: 18px;
+      line-height: 1.4;
+      margin-bottom: 20px;
+      color: #333;
+      font-weight: 400;
+    }
+    
+    .banner-highlight-ref {
+      font-weight: 700;
+      color: #000;
+    }
+    
+    .banner-cta-ref {
+      display: inline-flex;
+      align-items: center;
+      font-weight: 600;
+      color: #000;
+      transition: all 0.2s ease;
+    }
+    
+    .clickable-banner-ref:hover .banner-cta-ref {
+      color: #24788f;
+    }
+    
+    .banner-cta-ref i {
+      margin-left: 8px;
+      font-size: 14px;
+      transition: transform 0.3s ease;
+    }
+    
+    .clickable-banner-ref:hover .banner-cta-ref i {
+      transform: translateX(5px);
+    }
+    
+    .banner-corner-ref {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 100px;
+      height: 100px;
+      background: radial-gradient(circle at 100% 0%, rgba(36,120,143,0.05) 0%, transparent 70%);
+    }
+
+    .referencias-card {
+      background: #fff;
+      border-radius: 15px;
+      transition: all 0.3s ease;
+    }
+
+    .referencias-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .referencias-icon {
+      width: 60px;
+      height: 60px;
+      background: rgba(36,120,143,0.1);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  </style>
 </head>
 <body>
   <!-- Navbar -->
@@ -20,7 +122,7 @@
       </button>
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
-          <li class="nav-item"><a class="nav-link" href="index.html">Resume</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html">Currículum</a></li>
           <li class="nav-item"><a class="nav-link" href="blog.html">Blog Personal</a></li>
           <li class="nav-item"><a class="nav-link" href="catalogo.html">Catálogo</a></li>
           <li class="nav-item"><a class="nav-link active" href="referencias.html">Referencias</a></li>
@@ -44,7 +146,7 @@
         <div class="card shadow-lg border-0 referencias-card text-center p-4">
           <div class="referencias-icon mb-3 mx-auto"><i class="fas fa-link fa-2x text-info"></i></div>
           <div id="referencia-external">
-            <a href="https://cracom13.github.io/hoja_de_vida/" class="clickable-banner-ref" target="_blank">
+            <a href="https://cracom13.github.io/hoja_de_vida/?utm_source=web&utm_medium=link&utm_campaign=portfolio_2024&utm_term=desarrollador_frontend&utm_content=portafolio" class="clickable-banner-ref" target="_blank" rel="noopener noreferrer">
               <div class="banner-corner-ref"></div>
               <div class="banner-title-ref">PORTAFOLIO PROFESIONAL</div>
               <div class="banner-subtitle-ref">
